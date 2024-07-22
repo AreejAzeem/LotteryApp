@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.header_content{
+    display: flex;
+    align-items: center;
+}
+.header h1 {
+    font-size: 2rem;
+    color: #333;}
+
+  .menuIcon {
+    font-size: 5rem; 
+    color: #333; 
+    cursor: pointer;
+  } 
+  

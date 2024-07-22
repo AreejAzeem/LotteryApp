@@ -1,0 +1,13 @@
+
+:root {
+  --card-bg-color: #EEE1F0; /* Default light pink */
+  --text-color: #961A88; /* Default dark pink */
+
+  --card-bg-color-lightgreen: lightgreen;
+  --text-color-darkgreen: darkgreen;
+
+  --card-bg-color-lightblue: lightblue;
+  --text-color-darkblue: darkblue;
+}
+
+  

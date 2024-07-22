@@ -1,0 +1,49 @@
+.card {
+  background-color: var(--card-bg-color); /* Default to light pink */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 358px;
+  height: 205px;
+  position: absolute;
+  top: 116px;
+  left: 16px;
+}
+
+.card h2 {
+  color: var(--text-color); /* Default to dark pink */
+  margin-top: 0;
+}
+
+.card p {
+  color: var(--text-color); /* Default to dark pink */
+  margin: 10px 0;
+}
+
+.card button {
+  background-color: var(--text-color); /* Default to dark pink */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: darken(var(--text-color), 10%);
+}
+
+.theme-green {
+  --card-bg-color: var(--card-bg-color-lightgreen);
+  --text-color: var(--text-color-darkgreen);
+}
+.theme-pink {
+  --card-bg-color: var(--card-bg-color);
+  --text-color: var(--text-color);
+
+}
+
+.theme-blue {
+  --card-bg-color: var(--card-bg-color-lightblue);
+  --text-color: var(--text-color-darkblue);
+}
